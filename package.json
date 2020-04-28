@@ -1,0 +1,35 @@
+{
+  "name": "splatoon-stage-ical",
+  "version": "1.0.0",
+  "description": "Exposes three different iCal feeds for Splatoon 2 stages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shatindle/splatoon-stage-ical.git"
+  },
+  "keywords": [
+    "Splatoon2",
+    "Stages",
+    "Ranked",
+    "League",
+    "Turf"
+  ],
+  "author": "Shane Tindle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shatindle/splatoon-stage-ical/issues"
+  },
+  "homepage": "https://github.com/shatindle/splatoon-stage-ical#readme",
+  "dependencies": {
+    "@types/node": "^13.13.4",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "ical-generator": "^1.10.0",
+    "url": "^0.11.0"
+  }
+}
