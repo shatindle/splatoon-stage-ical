@@ -1,11 +1,10 @@
 const https = require("https");
 const express = require("express");
-const url = require("url");
 const ical = require("ical-generator");
 const moment = require("moment");
 
 const app = express();
-const port = 443;
+const port = 3000;
 
 const turfCalendar = ical({
   domain: "turf.rsplatoon.com",
