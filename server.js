@@ -7,17 +7,17 @@ const app = express();
 const port = 3000;
 
 const turfCalendar = ical({
-  domain: "turf.rsplatoon.com",
+  domain: "schedule.rsplatoon.com",
   name: "Splatoon Turf War Schedule",
 });
 
 const rankedCalendar = ical({
-  domain: "turf.rsplatoon.com",
+  domain: "schedule.rsplatoon.com",
   name: "Splatoon Ranked Schedule",
 });
 
 const leagueCalendar = ical({
-  domain: "turf.rsplatoon.com",
+  domain: "schedule.rsplatoon.com",
   name: "Splatoon League Schedule",
 });
 
